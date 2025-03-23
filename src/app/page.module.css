@@ -26,18 +26,20 @@
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold; /* Make text bold */
-  color: white;
-  background-color: #fc5200; /* Updated background color */
   border: none;
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-left: 10px;
+  background-color: white;
+  color: orange;
 }
 
 .linkButton:hover {
   background-color: #d94400; /* Adjusted hover color for consistency */
+  background-color: #f0f0f0;
 }
 
 .linkButton.joinClub {
@@ -115,7 +117,7 @@
 }
 
 .mapLink {
-  color: darkblue;
+  color: #cc8400; /* Updated to a darker shade of orange */
   text-decoration: underline;
   text-decoration-thickness: 2px;
   font-weight: 600;
@@ -144,4 +146,17 @@
 
 .strikeThrough {
   text-decoration: line-through;
+}
+
+.banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: orange; /* Assuming orange is the link color */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  z-index: 1000;
 }
