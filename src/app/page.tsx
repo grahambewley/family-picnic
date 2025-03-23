@@ -19,7 +19,7 @@ export default function Home() {
         </div>
       </main>
       <div className={styles.banner}>
-        <span>You coming?</span>
+        <span>Are you coming?</span>
         <Link
           href="https://docs.google.com/forms/d/e/1FAIpQLSeLS29hnSCrZT4ufjm9Ju-TFGDftEyms2_RenQgvNddhHjZlA/viewform?usp=dialog"
           className={styles.linkButton}
