@@ -1,17 +1,11 @@
 import styles from "./page.module.css";
 import Image from "next/image";
-import { FaInstagram } from "react-icons/fa";
-import getConfig from "next/config";
 import CampDetailsCard from "./components/CampDetailsCard";
 import AboutCard from "./components/AboutCard";
 import RideDetailsCard from "./components/RideDetailsCard";
 import Link from "next/link";
 
-const { publicRuntimeConfig } = getConfig();
-
 export default function Home() {
-  const { nextRideDate, nextRideTime, nextRideLocation, nextRideStravaRouteUrl, nextRideInfo } = publicRuntimeConfig;
-
   return (
     <div className={styles.page}>
       <main className={styles.main}>
