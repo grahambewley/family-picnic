@@ -10,7 +10,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <div className={styles.responsiveImage}>
-          <Image src={"/picnic-words.png"} alt="Bikes and Coffee" layout="responsive" width={360} height={360} />
+          <Image src={"/picnic-words-illustration.png"} alt="Bikes and Coffee" layout="responsive" width={360} height={360} />
         </div>
         <div className={styles.infoCardsContainer}>
           <AboutCard />
