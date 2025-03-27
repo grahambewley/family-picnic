@@ -130,6 +130,7 @@
 @media (max-width: 600px) {
   .page {
     padding: 24px;
+    padding-bottom: 84px;
   }
 }
 
