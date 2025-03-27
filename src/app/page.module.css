@@ -12,12 +12,13 @@
 .responsiveImage {
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 40px; /* Added bottom margin */
+  margin-bottom: 55px; /* Added bottom margin */
 }
 
 @media (min-width: 768px) {
   .responsiveImage {
-    width: 450px;
+    width: 800px;
+    margin-bottom: 80px;
   }
 }
 
