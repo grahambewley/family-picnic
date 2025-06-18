@@ -1,5 +1,5 @@
 import styles from "../page.module.css";
-import { FaArrowRight, FaPepperHot } from "react-icons/fa";
+import { FaArrowRight, FaPepperHot, FaFire } from "react-icons/fa";
 
 export default function RideDetailsCard() {
   return (
@@ -63,6 +63,31 @@ export default function RideDetailsCard() {
         </div>
         <p className={styles.helperText}>52 miles. An added challenge. Similar to The Ramble route, but with a bit of rugged singletrack. Expect a bit of hike-a-bike.</p>
       </div>
+
+      <div className={styles.infoSection}>
+        <div className={styles.infoWrapper}>
+          <FaFire className={styles.icon} />
+          <p>Warmup</p>
+          <a
+            href="https://ridewithgps.com/routes/51141487"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.mapLink}
+          >
+            Route <FaArrowRight />
+          </a>
+        </div>
+        <p className={styles.helperText}>9 miles. Nice little warmup, would be a perfect ride for Friday evening.</p>
+      </div>
+    
+      <a
+        href="https://ridewithgps.com/collections/4548466"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.mapLink}
+      >
+        Full Route Collection <FaArrowRight />
+      </a>
     </div>
   );
 }
