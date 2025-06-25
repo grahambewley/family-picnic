@@ -15,7 +15,7 @@ export default function RideDetailsCard() {
           <FaPepperHot className={styles.icon} />
           <p>Bimble</p>
           <a
-            href="https://ridewithgps.com/routes/48770587"
+            href="https://ridewithgps.com/routes/51141322"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.mapLink}
