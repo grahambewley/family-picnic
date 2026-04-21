@@ -9,7 +9,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <div className={styles.responsiveImage}>
-          <Image src={"/rwyb-2026-title.svg"} alt="Run What Ya Brung Family Picnic 2026" layout="responsive" width={923} height={303} />
+          <Image src={"/rwyb-2026-title.svg"} alt="Run What Ya Brung Family Picnic 2026" width={923} height={303} style={{ width: '100%', height: 'auto' }} />
         </div>
         <p className={styles.eventDate}>June 26–28</p>
         <div className={styles.aboutText}>
