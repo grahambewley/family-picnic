@@ -1,14 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Knewave, Inter, Fredoka } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const knewave = Knewave({
+  weight: "400",
+  variable: "--font-display",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
+  variable: "--font-body",
+  subsets: ["latin"],
+});
+
+const fredoka = Fredoka({
+  variable: "--font-banner",
   subsets: ["latin"],
 });
 
@@ -23,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${knewave.variable} ${inter.variable} ${fredoka.variable}`}>
         {children}
       </body>
     </html>

@@ -1,29 +1,21 @@
 import styles from "../page.module.css";
-import { FaArrowRight, FaPepperHot, FaFire } from "react-icons/fa";
+import { FaPepperHot, FaFire } from "react-icons/fa";
 
 export default function RideDetailsCard() {
   return (
     <div className={styles.infoCard}>
       <h2>Ride</h2>
       <div className={styles.infoSection}>
-        <p className={styles.helperText}>We&apos;ve prepared 3 routes, each with varying degrees of difficulty. Regardless which route you choose, rides will take off from the campground Saturday morning at 10AM. </p>
-        <p className={styles.helperText}>For the Ramble and Scramble, we&apos;re recommending (minimum) 2&quot; tires due to the singletrack sections along these routes.</p>
+        <p className={styles.helperText}>We&apos;re preparing 3 routes, each with varying degrees of difficulty. Regardless which route you choose, rides will take off Saturday morning at 10AM.</p>
+        <p className={styles.helperText}>Routes are still being finalized — exact details and links coming soon!</p>
       </div>
 
       <div className={styles.infoSection}>
         <div className={styles.infoWrapper}>
           <FaPepperHot className={styles.icon} />
-          <p>Bimble</p>
-          <a
-            href="https://ridewithgps.com/routes/51141322"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.mapLink}
-          >
-            Route <FaArrowRight />
-          </a>
+          <p className={styles.routeName}>Bimble</p>
         </div>
-        <p className={styles.helperText}>22 miles. Short and sweet. Primarily forest roads, no singletrack.</p>
+        <p className={styles.helperText}>~20 miles. Short and sweet. Primarily forest roads.</p>
       </div>
       <div className={styles.infoSection}>
         <div className={styles.infoWrapper}>
@@ -31,17 +23,9 @@ export default function RideDetailsCard() {
             <FaPepperHot className={styles.icon} />
             <FaPepperHot className={styles.icon} />
           </div>
-          <p>Ramble</p>
-          <a
-            href="https://ridewithgps.com/routes/48519715"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.mapLink}
-          >
-            Route <FaArrowRight />
-          </a>
+          <p className={styles.routeName}>Ramble</p>
         </div>
-        <p className={styles.helperText}>49 miles. The sweet spot. A good mix of gravel, forest roads, and mild singletrack.</p>
+        <p className={styles.helperText}>~50 miles. The sweet spot. A good mix of gravel, forest roads, and singletrack.</p>
       </div>
 
       <div className={styles.infoSection}>
@@ -51,43 +35,18 @@ export default function RideDetailsCard() {
             <FaPepperHot className={styles.icon} />
             <FaPepperHot className={styles.icon} />
           </div>
-          <p>Scramble</p>
-          <a
-            href="https://ridewithgps.com/routes/48526433"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.mapLink}
-          >
-            Route <FaArrowRight />
-          </a>
+          <p className={styles.routeName}>Scramble</p>
         </div>
-        <p className={styles.helperText}>52 miles. An added challenge. Similar to The Ramble route, but with a bit of rugged singletrack. Expect a bit of hike-a-bike.</p>
+        <p className={styles.helperText}>~50 miles. An added challenge. Similar to the Ramble, but with more rugged terrain.</p>
       </div>
 
       <div className={styles.infoSection}>
         <div className={styles.infoWrapper}>
           <FaFire className={styles.icon} />
-          <p>Warmup</p>
-          <a
-            href="https://ridewithgps.com/routes/51141487"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.mapLink}
-          >
-            Route <FaArrowRight />
-          </a>
+          <p className={styles.routeName}>Warmup</p>
         </div>
-        <p className={styles.helperText}>9 miles. Nice little warmup, would be a perfect ride for Friday evening.</p>
+        <p className={styles.helperText}>~10 miles. Nice little warmup, perfect for Friday evening.</p>
       </div>
-    
-      <a
-        href="https://ridewithgps.com/collections/4548466"
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.mapLink}
-      >
-        Full Route Collection <FaArrowRight />
-      </a>
     </div>
   );
 }
