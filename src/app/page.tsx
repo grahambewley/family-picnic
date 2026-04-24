@@ -24,7 +24,7 @@ export default function Home() {
         </div>
       </main>
       <div className={styles.banner}>
-        <span>Are you coming?</span>
+        <span>Space is limited!</span>
         <Link
           href="https://forms.gle/ecMo9W3bDxcaMBLi9"
           className={styles.linkButton}

@@ -10,9 +10,9 @@ export default function CampDetailsCard() {
       <div className={styles.infoSection}>
         <div className={styles.infoWrapper}>
           <FaMoneyBillWave className={styles.icon} />
-          <p>Suggested Donation</p>
+          <p>Registration Fee</p>
         </div>
-        <p className={styles.helperText}>$25 per camper to cover site costs and cookout supplies.</p>
+        <p className={styles.helperText}>$30 per camper to cover site costs and cookout supplies.</p>
       </div>
 
       <div className={styles.infoSection}>
@@ -28,7 +28,7 @@ export default function CampDetailsCard() {
           <FaCalendarAlt className={styles.icon} />
           <p>Arrival &amp; Departure</p>
         </div>
-        <p className={styles.helperText}>Campers can begin arriving at 2PM on Friday and should plan to leave by 12PM on Sunday.</p>
+        <p className={styles.helperText}>Campers can begin arriving at 1PM on Friday and should plan to leave by 3PM on Sunday.</p>
       </div>
 
       <div className={styles.infoSection}>

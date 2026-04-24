@@ -277,6 +277,12 @@
   z-index: 1000;
 }
 
+.bannerSubtext {
+  font-family: var(--font-body), sans-serif;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
 .routeName {
   font-family: var(--font-display), cursive;
 }
